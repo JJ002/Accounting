@@ -11,7 +11,7 @@ namespace Accounting.Tests.Controllers
         {
             var controller = new HomeController();
             var view = controller.Index();
-		string notNull= = "not null";
+		string notNull = "not null";
             Assert.IsNull(notNull);
         }
     }
