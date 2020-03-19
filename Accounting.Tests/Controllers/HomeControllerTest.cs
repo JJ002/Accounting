@@ -12,7 +12,7 @@ namespace Accounting.Tests.Controllers
             var controller = new HomeController();
             var view = controller.Index();
 
-            Assert.IsNull("not null");
+            Assert.Fail("test fail");
         }
     }
 }
